@@ -16,11 +16,6 @@ Route::post('/login', [AuthController::class, 'login']);
 // Rutas protegidas
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('/logout', [AuthController::class, 'logout']);
+    Route::apiResource('programminglanguages', ProgramminglanguagesController::class);
+    Route::apiResource('categories', CategoryController::class);
 });
-
-Route::apiResource('programminglanguages', ProgramminglanguagesController::class);
-Route::apiResource('categories', CategoryController::class);
-// Route::middleware('auth:sanctum')->group(function () {
-//     // Route::get('/programminglanguages', [ProgramminglanguagesController::class, 'index']);
-    
-// });

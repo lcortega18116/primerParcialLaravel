@@ -17,7 +17,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "2|6X899uuqzIkP7sx90VSjGstu1BaBN9FvTiXvfpftf4977d8c",
+									"value": "2|1yPyt1NZTh4BMd8KYJfWlcxkVEwWFKaoyXYmfxfQ6576df1b",
 									"type": "string"
 								}
 							]
@@ -56,7 +56,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "2|6X899uuqzIkP7sx90VSjGstu1BaBN9FvTiXvfpftf4977d8c",
+									"value": "2|1yPyt1NZTh4BMd8KYJfWlcxkVEwWFKaoyXYmfxfQ6576df1b",
 									"type": "string"
 								}
 							]
@@ -130,6 +130,16 @@
 				{
 					"name": "update",
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|1yPyt1NZTh4BMd8KYJfWlcxkVEwWFKaoyXYmfxfQ6576df1b",
+									"type": "string"
+								}
+							]
+						},
 						"method": "PUT",
 						"header": [
 							{
@@ -148,7 +158,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:8000/api/programminglanguages/1",
+							"raw": "http://127.0.0.1:8000/api/programminglanguages/15",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -160,7 +170,7 @@
 							"path": [
 								"api",
 								"programminglanguages",
-								"1"
+								"15"
 							]
 						}
 					},
@@ -174,7 +184,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "2|6X899uuqzIkP7sx90VSjGstu1BaBN9FvTiXvfpftf4977d8c",
+									"value": "2|1yPyt1NZTh4BMd8KYJfWlcxkVEwWFKaoyXYmfxfQ6576df1b",
 									"type": "string"
 								}
 							]
@@ -439,7 +449,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"name\": \"lortega2\",\r\n        \"email\": \"luis.ortega18117@ucaldas.edu.co\",\r\n        \"password\":\"luis1234\"\r\n}",
+					"raw": "{\r\n        \"name\": \"lortega2\",\r\n        \"email\": \"luis.ortega@ucaldas.edu.co\",\r\n        \"password\":\"luis1234\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -467,6 +477,16 @@
 		{
 			"name": "LoginUser",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "1|VYwKmTmBVoZIsN3HksgmVJFpxt0rxJPLFQLkScl403491383",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [
 					{
@@ -477,7 +497,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"email\": \"luis.ortega18116@ucaldas.edu.co\",\r\n        \"password\":\"1234lcortega\"\r\n}",
+					"raw": "{\r\n        \"email\": \"luis.ortega@ucaldas.edu.co\",\r\n        \"password\":\"1234luis\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -525,7 +545,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"name\": \"laravel 2\",\r\n        \"email\": \"luis.ortega18116@ucaldas.edu.co\",\r\n        \"password\":\"luis1234\"\r\n}",
+					"raw": "{\r\n        \"email\": \"luis.ortega@ucaldas.edu.co\",\r\n        \"password\":\"luis1234\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
